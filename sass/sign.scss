@@ -1,0 +1,23 @@
+
+form {
+    .button {
+        @include button($white-color, $main-color, $main-color);
+        font-size: 22px;
+    }
+}
+
+a.ms-3 {
+    color: $main-color !important;
+}
+.social-media-login{
+    .login-button{
+        color: $main-color;
+        font-size: 25px;
+        margin-left: 20px;
+        margin-top: 10px;
+        transition: all 0.5s ease;
+        &:hover{
+            color: rgba($color: $main-color, $alpha: 0.5);
+        }
+    }
+}
